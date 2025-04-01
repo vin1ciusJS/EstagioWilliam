@@ -1,0 +1,156 @@
+{
+  "usuarios": [
+    {
+      "id": "1",
+      "nome_completo": "João Silva",
+      "email": "joao@email.com",
+      "senha": "123456",
+      "telefone": "99999-9999",
+      "cpf": "111.222.333-44",
+      "data_nascimento": "1990-01-01",
+      "endereco": "Rua A, 123",
+      "cidade": "São Paulo",
+      "estado": "SP",
+      "data_criacao": "2024-04-01"
+    },
+    {
+      "id": "8aa7",
+      "nome_completo": "Vinicius",
+      "email": "bvelopes@gmail.com",
+      "telefone": "61992540871",
+      "senha": "1234",
+      "cpf": "12345678910",
+      "data_nascimento": "2004-07-04",
+      "endereco": "teste",
+      "cidade": "teste",
+      "estado": "teste",
+      "data_criacao": "2025-04-01"
+    }
+  ],
+  "clientes": [
+    {
+      "id": "1",
+      "razao_social": "Empresa X",
+      "nome_fantasia": "Loja X",
+      "cnpj": "12.345.678/0001-99",
+      "inscricao_estadual": "123456789",
+      "telefone": "99999-9999",
+      "email": "contato@empresax.com",
+      "endereco": "Av. Y, 456",
+      "cidade": "Rio de Janeiro",
+      "estado": "RJ",
+      "cep": "12345-678",
+      "responsavel": "Carlos Souza",
+      "data_cadastro": "2024-04-01",
+      "limite_credito": 5000,
+      "forma_pagamento": "Boleto",
+      "observacoes": "Cliente VIP",
+      "status": "Ativo",
+      "ultima_compra": "2024-03-20",
+      "total_compras": 15000,
+      "categoria": "Varejo",
+      "data_atualizacao": "2024-04-01"
+    }
+  ],
+  "controle_contatos_cliente": [
+    {
+      "id": "1",
+      "cliente_id": 1,
+      "nome_contato": "Ana Lima",
+      "cargo": "Gerente",
+      "telefone": "98888-7777",
+      "email": "ana@empresax.com",
+      "data_primeiro_contato": "2024-02-10",
+      "data_ultimo_contato": "2024-03-25",
+      "tipo_contato": "WhatsApp",
+      "status": "Ativo",
+      "observacoes": "Interessado em novos produtos"
+    }
+  ],
+  "receitas": [
+    {
+      "id": "1",
+      "descricao": "Venda de Produto A",
+      "valor": 1000,
+      "data_recebimento": "2024-03-25",
+      "forma_pagamento": "Cartão",
+      "cliente_id": 1,
+      "status": "Pago",
+      "observacoes": "Pagamento antecipado"
+    }
+  ],
+  "despesas": [
+    {
+      "id": "1",
+      "descricao": "Aluguel Escritório",
+      "valor": 2000,
+      "data_vencimento": "2024-03-30",
+      "forma_pagamento": "Boleto",
+      "fornecedor_id": 1,
+      "status": "Pendente",
+      "observacoes": "Atraso de 5 dias"
+    }
+  ],
+  "fornecedor": [
+    {
+      "id": "1",
+      "razao_social": "Fornecedor Y",
+      "nome_fantasia": "Y Materiais",
+      "cnpj": "98.765.432/0001-11",
+      "telefone": "97777-6666",
+      "email": "contato@ymateriais.com",
+      "endereco": "Rua B, 789",
+      "cidade": "Belo Horizonte",
+      "estado": "MG",
+      "cep": "87654-321",
+      "status": "Ativo"
+    }
+  ],
+  "controle_banco": [
+    {
+      "id": "1",
+      "banco_nome": "Banco Z",
+      "agencia": "1234",
+      "conta": "56789-0",
+      "saldo": 10000,
+      "limite": 5000,
+      "tipo_conta": "Corrente",
+      "titular": "Empresa X",
+      "status": "Ativo",
+      "data_atualizacao": "2024-04-01"
+    }
+  ],
+  "controle_cartoes": [
+    {
+      "id": "1",
+      "banco_nome": "Banco Z",
+      "numero_cartao": "**** **** **** 1234",
+      "limite": 5000,
+      "saldo_disponivel": 2500,
+      "status": "Ativo"
+    }
+  ],
+  "controle_contas": [
+    {
+      "id": "1",
+      "descricao": "Conta de Internet",
+      "valor": 150,
+      "data_vencimento": "2024-04-05",
+      "status": "Pendente"
+    }
+  ],
+  "controle_pagamentos": [
+    {
+      "id": "1",
+      "descricao": "Parcela de equipamento",
+      "valor": 500,
+      "data_pagamento": "2024-03-20",
+      "forma_pagamento": "Pix",
+      "status": "Pago",
+      "fornecedor_id": 1,
+      "banco_id": 1,
+      "cartao_id": null,
+      "observacoes": "Pagamento parcelado"
+    }
+  ]
+}
